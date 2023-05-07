@@ -1,0 +1,21 @@
+numero = [1,2,3]
+    print(numero)
+    array_numeros = np.array(numero)
+    print(array_numeros)
+    array_zeros = np.zeros(10)
+    new_arr = array_zeros.reshape(2, 5)
+    print("_______________")
+    print(new_arr )
+    print("_______________")
+    array_pares = np.arange(0,50,2)
+    array_paress = np.arange(0, 50, 2)
+    print(array_pares)
+    print(array_pares + array_paress)
+    print(array_numeros.mean())
+    print("_______________")
+    array_ordena = np.array([6,4,2,1])
+    array_ordena.sort()
+    arr =array_ordena < 4
+    arr2 = array_ordena[array_ordena < 4]
+    print(arr)
+    print(arr2)
